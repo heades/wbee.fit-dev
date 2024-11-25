@@ -1,3 +1,9 @@
+{% if site.whatsapp_short_url %}
+  <a href="{{ site.whatsapp_short_url }}" title="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+{% endif %}
+{% if site.instagram_id %}
+  <a href="https://instagram.com/{{ site.instagram_id }}" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+{% endif %}
 {% if site.email %}
   <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
 {% endif %}
@@ -102,9 +108,6 @@
 {% endif %}
 {% if site.unsplash_id %}
   <a href="https://unsplash.com/@{{ site.unsplash_id }}" title="Unsplash"><i class="fa-brands fa-unsplash"></i></a>
-{% endif %}
-{% if site.instagram_id %}
-  <a href="https://instagram.com/{{ site.instagram_id }}" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
 {% endif %}
 {% if site.facebook_id %}
   <a href="https://facebook.com/{{ site.facebook_id }}" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
