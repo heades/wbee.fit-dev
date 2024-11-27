@@ -1,11 +1,20 @@
 {% if site.whatsapp_short_url %}
-  <a href="{{ site.whatsapp_short_url }}" title="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+  <figure class="figure">
+    <a href="{{ site.whatsapp_short_url }}" title="whatsapp"><i class="fa-brands fa-whatsapp fa-xs"></i></a>
+    <figcaption class="caption mt-0">WhatsApp</figcaption>
+  </figure>
 {% endif %}
 {% if site.instagram_id %}
-  <a href="https://instagram.com/{{ site.instagram_id }}" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+  <figure class="figure">
+    <a href="https://instagram.com/{{ site.instagram_id }}" title="Instagram"><i class="fa-brands fa-instagram fa-xs"></i></a>
+    <figcaption class="caption mt-0">Instagram</figcaption>
+  </figure>
 {% endif %}
 {% if site.email %}
-  <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
+  <figure class="figure">
+    <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fa-solid fa-envelope fa-xs"></i></a>
+    <figcaption class="caption mt-0">Email</figcaption>
+  </figure>
 {% endif %}
 {% if site.telegram_username %}
   <a href="https://telegram.me/{{ site.telegram_username }}" title="telegram"><i class="fa-brands fa-telegram"></i></a>
