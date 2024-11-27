@@ -2,10 +2,10 @@
 layout: page
 permalink: /catalog/
 title: catalog
-description: The services we provide.
+description: "Click the cards below for more information."
 nav: true
 nav_order: 2
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/catalog.md -->
