@@ -40,9 +40,11 @@ with you through your Client Portal. Everything related to your training program
 can be found in the portal. There is a section called `Program` which lists each
 training cycle you've completed. An example athlete portal is shown below:
 
-<img src="/assets/img/example-athlete-portal.png" alt="A athlete portal is
-     described for an example athlete. It contains an overview, nutrition, and
-     program sections." class="border mx-auto d-block img-fluid">
+<a href="/assets/img/example-athlete-portal.png">
+     <img src="{% thumbnail_img /assets/img/example-athlete-portal.png 500 %}"
+          alt='Athlete portal with training overview, nutrition goals, and a structured program for strength gains.' 
+          class="border mx-auto d-block img-fluid">
+</a>
 
 Typically, training programs are broken up into 4, 8, or 12 cycles depending on
 the client and their goals. The 4 week cycle is the most popular. This ensures
@@ -50,20 +52,29 @@ that we are building fitness without getting too bored.
 
 Then inside the page for a `Cycle` lists the days of the week with tags for the
 concentration of each day. For example:
-
-<img src="/assets/img/example-cycle-page.png" alt="An example cycle is shown
-headed by Cycle 4. Then there is a list of each day of the week with various
-concentrations listed for each day." class="border mx-auto d-block img-fluid">
+     <figure>
+     <a href="/assets/img/example-cycle-page.png">
+     <img src="{% thumbnail_img /assets/img/example-cycle-page.png 300 %}" 
+          alt="An example cycle is shown headed by Cycle 4. Then there is a list of 
+               each day of the week with various
+               concentrations listed for each day." 
+          class="border mx-auto d-block img-fluid">
+     </a>
+     <caption>Click to enlarge</caption>
+     </figure>
 
 Each day contains that day's training with descriptions, videos, and places for
 the client to record their feedback for the day. In addition, there is a
 location for me to write a response to the client's feedback for them to
 consider the next week. For example:
 
-<img src="/assets/img/example-training-day.png" alt="An example training day is
-shown." class="border mx-auto d-block img-fluid">
+<a href="/assets/img/example-training-day.png">
+     <img src="{% thumbnail_img /assets/img/example-training-day.png 500 %}" 
+          alt="An example training day is shown with a workout description and movement videos." 
+          class="border mx-auto d-block img-fluid">
+</a>
 
-# Weekly Check Ins
+# Weekly Check-Ins
 
 Each week on Sunday and Monday I read over all of my clients feedback for the
 week and collect questions and messages of support into a weekly check-in
