@@ -2,7 +2,7 @@
 layout: about
 title: home
 permalink: /
-subtitle: Coach Harley Eades
+subtitle: "Coach Harley Eades<br>Remote Personalized Strength and Conditioning Coaching"
 
 profile:
   align: right
@@ -13,6 +13,8 @@ news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+
+# Welcome
 
 I have always wanted to be and feel athletic. When I was younger, I loved
 skating and skateboarding, so I was outside working on those skills all day

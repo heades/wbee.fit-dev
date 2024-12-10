@@ -4,9 +4,11 @@ permalink: /catalog/
 title: catalog
 description: "Click the cards below for more information."
 nav: true
-nav_order: 2
+nav_order: 3
 horizontal: true
 ---
+
+Click a card below for more details.
 
 <!-- pages/catalog.md -->
 <div class="catalog">
@@ -23,7 +25,9 @@ horizontal: true
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
     {% for catalog in sorted_catalog %}
-      {% include catalog_horizontal.liquid %}
+      {% if catalog.show  %}
+        {% include catalog_horizontal.liquid %}
+      {% endif %}
     {% endfor %}
     </div>
   </div>
@@ -49,7 +53,9 @@ horizontal: true
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
     {% for catalog in sorted_catalog %}
-      {% include catalog_horizontal.liquid %}
+      {% if catalog.show  %}
+        {% include catalog_horizontal.liquid %}
+      {% endif %}
     {% endfor %}
     </div>
   </div>

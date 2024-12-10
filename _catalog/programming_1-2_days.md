@@ -7,6 +7,7 @@ img: assets/img/white-bee-logo.png
 importance: 2
 category: work
 toc: true
+show: true
 giscus_comments: false
 ---
 
@@ -42,9 +43,10 @@ with you through your <strong>Client Portal</strong>. Everything related to your
 can be found in the portal. There is a section called <strong>Program</strong> which lists each
 training cycle you've completed. An example athlete portal is shown to the right.</p>
 
-<p>Typically, training programs are broken up into 4, 8, or 12 cycles depending on
-the client and their goals. The 4 week cycle is the most popular. This ensures
-that we are building fitness without getting too bored. </p>
+<p>Typically, training programs are broken up into 4, 8, or 12 week cycles depending on
+the client and their goals. The 4 week cycle is the most popular. For example, every 4 weeks I change 
+up the exercises in the clients training program. This ensures that we are building fitness 
+without getting too bored. </p>
      </div>
      <div class="col-sm">
           <figure>
